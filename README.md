@@ -35,8 +35,8 @@ Follow these steps to run the project on your machine:
 git clone [https://github.com/Tarshithreddy/risk-radar-app.git](https://github.com/Tarshithreddy/risk-radar-app.git)
 cd risk-radar-app
 
-### 2. Install Dependencies
-```bash
+Install Dependencies
+
 npm install
 ### 3. Set Up Environment Variables
 Create a .env.local file in the root directory and add your Google Gemini API key:
@@ -44,6 +44,6 @@ Create a .env.local file in the root directory and add your Google Gemini API ke
 Code snippet
 GEMINI_API_KEY=your_gemini_api_key_here
 ### 4. Run the Development Server
-```Bash
+
 npm run dev
 Open http://localhost:3000 in your browser to see the dashboard running locally.
